@@ -1,0 +1,56 @@
+    <model name='wall_%d'>
+      <pose frame=''>%f %f 0.4 0 0 %f</pose>
+      <link name='link'>
+        <inertial>
+          <mass>10000.0</mass>
+          <inertia>
+            <ixx>166.7</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>166.7</iyy>
+            <iyz>0</iyz>
+            <izz>166.7</izz>
+          </inertia>
+          <pose frame=''>0 0 0 0 0 0</pose>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>%f %f 0.8</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>          
+          <surface>
+            <friction>
+              <ode>
+                <mu>0.62</mu>
+                <mu2>0.6</mu2>
+              </ode>
+              <torsional>
+                <coefficient>1.0</coefficient>
+              </torsional>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>%f %f 0.8</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/FlatBlack</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>

@@ -1,0 +1,25 @@
+WorldGen:
+    num_objs: 28
+
+    wall:
+        offset_dist: 2.4
+        use_walls: true
+        thickness: 0.5
+
+    
+    pos:
+        min: [1.1, -2.5, 0]
+        max: [5, 2.5, 0]
+    
+    dim:
+        min: [0.05, 0.05, 0.05]
+        max: [0.75, 0.75, 0.25]
+    
+    rpy:
+        min: [0, 0, -3.14]
+        max: [0, 0, 3.14]
+
+    #mass:
+        #min: 0.5
+        #max: 15
+    

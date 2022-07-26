@@ -1,0 +1,10 @@
+      <model name='wall_%d'>
+        <pose frame=''>%f %f 0.4 0 0 %f</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>%f %f 0.4 0 0 %f</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 -9.8 0 -0 0</acceleration>
+          <wrench>0 0 -9.8 0 -0 0</wrench>
+        </link>
+      </model>

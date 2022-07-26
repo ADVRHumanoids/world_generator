@@ -1,0 +1,16 @@
+    <state world_name='default'>
+      <sim_time>321 430000000</sim_time>
+      <real_time>1167 625233655</real_time>
+      <wall_time>1645194659 864289514</wall_time>
+      <iterations>1251380</iterations>
+      <model name='ground_plane'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>   
+
