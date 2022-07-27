@@ -26,7 +26,7 @@ obj_models = []
 #Define Object Templates
 with open('../config/obj/box_state.txt') as f:
       obj_states.insert(0, f.read())
-      
+
 with open('../config/obj/box_model.txt') as f:
       obj_models.insert(0, f.read())
 
@@ -146,7 +146,7 @@ def rand_num(min_val, max_val):
 
 def main():
     f = open("../data/test_data.world", "w")
-    
+
     # Init World
     f.write(world_init)
     f.write(world_state_init)
@@ -184,7 +184,7 @@ def main():
     # Define Models
     #TODO: mass and inertia
     for i in range(0, yaml_generator["WorldGen"]["num_objs"]):
-        create_obj_model(f, 0, i, pos_x[i], pos_y[i], dim_z[i]*0.5, 0, 0, yaw[i], 10, 1.67, 0, 0, 1.67, 0, 1.67, dim_x[i], dim_y[i], dim_z[i])
+        create_obj_model(f, 0, i, pos_x[i], pos_y[i], dim_z[i]*0.5, 0, 0, yaw[i], 1000, 166.7, 0, 0, 166.7, 0, 166.7, dim_x[i], dim_y[i], dim_z[i])
 
     #If Wall to be added
     if yaml_generator["WorldGen"]["wall"]["use_walls"]:
