@@ -1,17 +1,17 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
-  <model name='Brick'>
+  <model name='WoodenPlatform1'>
     <link name='body'>
 	  <inertial>
-        <mass>15.0</mass>
+        <mass>10.0</mass>
         <pose frame=''>0 0 0 0 0 0</pose>
         <inertia>
-      	  <ixx> 0.228125 </ixx>
+      	  <ixx> 1.6 </ixx>
       	  <ixy> 0.0 </ixy>
       	  <ixz> 0.0 </ixz>
-      	  <iyy> 0.073249997 </iyy>
+      	  <iyy> 1.6 </iyy>
       	  <iyz> 0.0 </iyz>
-      	  <izz> 0.24512499 </izz>
+      	  <izz> 1.6 </izz>
         </inertia>
       </inertial>
       <pose frame=''>0 0 0 0 0 0</pose>
@@ -21,7 +21,7 @@
       <visual name='visual'>
         <geometry>
           <mesh>
-            <uri>model://Brick.dae</uri>
+            <uri>model://WoodPlat1.dae</uri>
           </mesh>
         </geometry>
 		<meta> <layer> 1 </layer></meta>
@@ -32,7 +32,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://Brick.dae</uri>
+            <uri>model://WoodPlat1.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
