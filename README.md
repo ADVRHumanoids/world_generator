@@ -8,3 +8,6 @@ This python script allows to randomly generate cluttered Gazebo worlds. In parti
 # How to run
 In order to run it you simply have to execute the script: generator.py
 The resulting .world file will be written inside "data" folder.
+
+In order to launch the world from other nodes:
+    export GAZEBO_RESOURCE_PATH=$GAZEBO_RESOURCE_PATH:{your_local_path}/world_generator/data

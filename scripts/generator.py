@@ -23,12 +23,17 @@ with open('../config/base/world_end.txt') as f:
 obj_states = []
 obj_models = []
 
-#Define Object Templates
-with open('../config/obj/box_state.txt') as f:
-      obj_states.insert(0, f.read())
+#models_used TO INTEGRATE
+models_used = yaml_generator["WorldGen"]["models"]
+models_fixed_inertia = yaml_generator["WorldGen"]["fixed_inertia"]
 
-with open('../config/obj/box_model.txt') as f:
-      obj_models.insert(0, f.read())
+#Define Object Templates
+for i in range(0, len(models_fixed_inertia)):
+    with open('../config/obj/'+models_used[i]+'_state.txt') as f:
+          obj_states.insert(i, f.read())
+
+    with open('../config/obj/'+models_used[i]+'_model.txt') as f:
+          obj_models.insert(i, f.read())
 
 #Define Wall Templates
 with open('../config/obj/wall_model.txt') as f:
@@ -44,9 +49,15 @@ def create_obj_state(file_obj, obj_id, n, px, py, pz, r, p ,y):
     ))
     
 def create_obj_model(file_obj, obj_id, n, px, py, pz, r, p ,y, mass, ixx, ixy, ixz, iyy, iyz, izz, dim_x, dim_y, dim_z):
-    file_obj.write(obj_models[obj_id] % (
-        n, px, py, pz, r, p ,y, mass, ixx, ixy, ixz, iyy, iyz, izz, dim_x, dim_y, dim_z, dim_x, dim_y, dim_z
-    ))
+
+    if models_fixed_inertia[obj_id] == 1:
+        file_obj.write(obj_models[obj_id] % (
+            n, px, py, pz, r, p ,y
+        ))
+    else:
+        file_obj.write(obj_models[obj_id] % (
+            n, px, py, pz, r, p ,y, mass, ixx, ixy, ixz, iyy, iyz, izz, dim_x, dim_y, dim_z, dim_x, dim_y, dim_z
+        ))
 
 def create_walls_state(file_obj, yaml_generator):
 
@@ -159,9 +170,16 @@ def main():
     dim_z = []
 
     yaw = []
-    
-      # Define Model in <state>
+
+    rand_type = []
+
+    # Define Model in <state>
     for i in range(0, yaml_generator["WorldGen"]["num_objs"]):
+
+        if len(models_used) > 1:
+            rand_type.insert(i, random.randint(0, len(models_used)-1))
+        else:
+            rand_type.insert(i, 0)
         
         pos_x.insert(i, rand_num(yaml_generator["WorldGen"]["pos"]["min"][0], yaml_generator["WorldGen"]["pos"]["max"][0]))
         pos_y.insert(i, rand_num(yaml_generator["WorldGen"]["pos"]["min"][1], yaml_generator["WorldGen"]["pos"]["max"][1]))
@@ -172,7 +190,7 @@ def main():
                       
         yaw.insert(i, rand_num(yaml_generator["WorldGen"]["rpy"]["min"][2], yaml_generator["WorldGen"]["rpy"]["max"][2]))
         
-        create_obj_state(f, 0, i, pos_x[i], pos_y[i], dim_z[i]*0.5, 0, 0, yaw[i])
+        create_obj_state(f, rand_type[i], i, pos_x[i], pos_y[i], dim_z[i]*0.5, 0, 0, yaw[i])
 
     #If Wall to be added
     if yaml_generator["WorldGen"]["wall"]["use_walls"]:
@@ -184,7 +202,7 @@ def main():
     # Define Models
     #TODO: mass and inertia
     for i in range(0, yaml_generator["WorldGen"]["num_objs"]):
-        create_obj_model(f, 0, i, pos_x[i], pos_y[i], dim_z[i]*0.5, 0, 0, yaw[i], 1000, 166.7, 0, 0, 166.7, 0, 166.7, dim_x[i], dim_y[i], dim_z[i])
+        create_obj_model(f, rand_type[i], i, pos_x[i], pos_y[i], dim_z[i]*0.5, 0, 0, yaw[i], 1000, 166.7, 0, 0, 166.7, 0, 166.7, dim_x[i], dim_y[i], dim_z[i])
 
     #If Wall to be added
     if yaml_generator["WorldGen"]["wall"]["use_walls"]:
