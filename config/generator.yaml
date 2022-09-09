@@ -1,8 +1,10 @@
 WorldGen:
-    num_objs: 5
+    num_objs: 30
 
-    models: ["box", "brick", "woodplat1"]
-    fixed_inertia: [0, 1, 1]
+    #Models Types (fixed inertia): box (0),   brick (1),    woodplat1 (1)
+
+    models: ["brick", "box"]
+    fixed_inertia: [1, 0]
 
     wall:
         offset_dist: 2.4

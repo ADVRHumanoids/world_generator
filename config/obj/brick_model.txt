@@ -4,12 +4,12 @@
         <inertial>
           <mass> 15.0 </mass>
           <inertia>
-            <ixx> 0.228125 </ixx>
+            <ixx> 0.07565625 </ixx>
             <ixy> 0.0 </ixy>
             <ixz> 0.0 </ixz>
-            <iyy> 0.073249997 </iyy>
+            <iyy> 0.340625 </iyy>
             <iyz> 0.0 </iyz>
-            <izz> 0.24512499 </izz>
+            <izz> 0.33125 </izz>
           </inertia>
         </inertial>
         <collision name="collision">
@@ -42,10 +42,10 @@
             </mesh>
           </geometry>
           <material>
-            <script>
-              <name>Gazebo/Grey</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
+            <ambient>0.3 0.3 0.3 1</ambient>
+            <diffuse>0.3 0.3 0.3 1</diffuse>
+            <specular>0 0 0 0</specular>
+            <emissive>0 0 0 1</emissive>
           </material>
         </visual>
         <self_collide>0</self_collide>
