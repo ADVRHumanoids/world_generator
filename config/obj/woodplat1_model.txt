@@ -1,25 +1,24 @@
-    <model name='box_%d'>
+    <model name='woodplat1_%d'>
       <pose frame=''>%f %f %f %f %f %f</pose>
-      <link name='link'>
+      <link name="link">
         <inertial>
-          <mass>%f</mass>
+          <mass> 10.0 </mass>
           <inertia>
-            <ixx>%f</ixx>
-            <ixy>%f</ixy>
-            <ixz>%f</ixz>
-            <iyy>%f</iyy>
-            <iyz>%f</iyz>
-            <izz>%f</izz>
+            <ixx> 1.6 </ixx>
+            <ixy> 0.0 </ixy>
+            <ixz> 0.0 </ixz>
+            <iyy> 1.6 </iyy>
+            <iyz> 0.0 </iyz>
+            <izz> 1.6 </izz>
           </inertia>
-          <pose frame=''>0 0 0 0 0 0</pose>
         </inertial>
-        <collision name='collision'>
+        <collision name="collision">
           <geometry>
-            <box>
-              <size>%f %f %f</size>
-            </box>
+            <mesh>
+              <uri>file://../config/meshes/WoodenPlatform1/WoodPlat1.dae</uri>
+            </mesh>
           </geometry>
-          <max_contacts>10</max_contacts>          
+          <max_contacts>100</max_contacts>
           <surface>
             <friction>
               <ode>
@@ -36,15 +35,15 @@
             <bounce/>
           </surface>
         </collision>
-        <visual name='visual'>
+        <visual name="visual">
           <geometry>
-            <box>
-              <size>%f %f %f</size>
-            </box>
+            <mesh>
+              <uri>file://../config/meshes/WoodenPlatform1/WoodPlat1.dae</uri>
+            </mesh>
           </geometry>
           <material>
             <script>
-              <name>Gazebo/DarkGrey</name>
+              <name>Gazebo/Wood</name>
               <uri>file://media/materials/scripts/gazebo.material</uri>
             </script>
           </material>

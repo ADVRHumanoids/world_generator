@@ -1,5 +1,5 @@
 # World Random Generator
-This python script allows to randomly generate cluttered Gazebo worlds. In particular you can select the shapes you want to include (for now only rectangular ones) and define: min and max dimensions, min and max area for the spawning, number of elements to consider.
+This python script allows to randomly generate cluttered Gazebo worlds. In particular you can select the shapes you want to include and define: min and max dimensions, min and max area for the spawning, number of elements to consider.
 
 # Dependencies
 - Python3
@@ -8,3 +8,34 @@ This python script allows to randomly generate cluttered Gazebo worlds. In parti
 # How to run
 In order to run it you simply have to execute the script: generator.py
 The resulting .world file will be written inside "data" folder.
+
+In order to launch the world from other locations you need the following export:
+    export GAZEBO_RESOURCE_PATH=$GAZEBO_RESOURCE_PATH:{your_local_path}/world_generator/data
+
+# Object Description
+For now the following objects are available:
+- _Random boxes_: boxes with random size, orientation (mass to be added).
+- _Brick_: a brick with 3 holes. It has fixed dimension 0.5x0.15x0.194 and mass 15 Kg.
+- _WoodenPlatform_: wooden rectangular platform with the following dimension: 1.25x0.5x0.15 with mass 10 Kg.
+
+
+# Examples of Generated Scenarios
+
+<table>
+    <tr>
+        <td>
+            <img src="https://github.com/ADVRHumanoids/world_generator/blob/custom_meshes/examples/Example1.png?raw=true"/>
+        </td>
+        <td>
+            <img src="https://github.com/ADVRHumanoids/world_generator/blob/custom_meshes/examples/Example2.png?raw=true"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://github.com/ADVRHumanoids/world_generator/blob/custom_meshes/examples/Example3.png?raw=true"/>
+        </td>
+        <td>
+            <img src="https://github.com/ADVRHumanoids/world_generator/blob/custom_meshes/examples/Example4.png?raw=true"/>
+        </td>
+    </tr>
+</table>
