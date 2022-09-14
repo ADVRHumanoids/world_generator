@@ -24,18 +24,18 @@ For now the following objects are available:
 <table>
     <tr>
         <td>
-            <img src="https://github.com/ADVRHumanoids/world_generator/blob/custom_meshes/examples/Example1.png?raw=true"/>
+            <img src="https://github.com/ADVRHumanoids/world_generator/blob/main/examples/Example1.png?raw=true"/>
         </td>
         <td>
-            <img src="https://github.com/ADVRHumanoids/world_generator/blob/custom_meshes/examples/Example2.png?raw=true"/>
+            <img src="https://github.com/ADVRHumanoids/world_generator/blob/main/examples/Example2.png?raw=true"/>
         </td>
     </tr>
     <tr>
         <td>
-            <img src="https://github.com/ADVRHumanoids/world_generator/blob/custom_meshes/examples/Example3.png?raw=true"/>
+            <img src="https://github.com/ADVRHumanoids/world_generator/blob/main/examples/Example3.png?raw=true"/>
         </td>
         <td>
-            <img src="https://github.com/ADVRHumanoids/world_generator/blob/custom_meshes/examples/Example4.png?raw=true"/>
+            <img src="https://github.com/ADVRHumanoids/world_generator/blob/main/examples/Example4.png?raw=true"/>
         </td>
     </tr>
 </table>
