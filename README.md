@@ -17,3 +17,25 @@ For now the following objects are available:
 - _Random boxes_: boxes with random size, orientation (mass to be added).
 - _Brick_: a brick with 3 holes. It has fixed dimension 0.5x0.15x0.194 and mass 15 Kg.
 - _WoodenPlatform_: wooden rectangular platform with the following dimension: 1.25x0.5x0.15 with mass 10 Kg.
+
+
+# Examples of Generated Scenarios
+
+<table>
+    <tr>
+        <td>
+            <img src="https://github.com/ADVRHumanoids/world_generator/blob/custom_meshes/examples/Example1.png?raw=true"/>
+        </td>
+        <td>
+            <img src="https://github.com/ADVRHumanoids/world_generator/blob/custom_meshes/examples/Example2.png?raw=true"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://github.com/ADVRHumanoids/world_generator/blob/custom_meshes/examples/Example3.png?raw=true"/>
+        </td>
+        <td>
+            <img src="https://github.com/ADVRHumanoids/world_generator/blob/custom_meshes/examples/Example4.png?raw=true"/>
+        </td>
+    </tr>
+</table>
