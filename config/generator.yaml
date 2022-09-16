@@ -1,10 +1,11 @@
 WorldGen:
     num_objs: 20
 
-    #Models Types (fixed inertia): box (0),   brick (1),    woodplat1 (1)
+    #Models Types (fixed inertia): box (0),   brick (1), woodplat1 (1), woodpallet1 (1)
 
-    models: ["brick", "box", "woodplat1"]
-    fixed_inertia: [1, 0, 1]
+    models: ["brick", "box", "woodplat1", "woodpallet1"]
+    fixed_inertia: [1, 0, 1, 1]
+    max_instances: [-1, -1, 1, 1]  #maximum number of objects per class. -1 means no limits
 
     wall:
         offset_dist: 2.4

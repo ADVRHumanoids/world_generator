@@ -138,201 +138,201 @@
         </link>
       </model>   
 
-      <model name='box_0'>
-        <pose frame=''>4.150145 -1.636573 0.124217 0.000000 0.000000 0.321245</pose>
+      <model name='woodplat1_0'>
+        <pose frame=''>2.983632 -0.551379 0.107556 0.000000 0.000000 1.016308</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>4.150145 -1.636573 0.124217 0.000000 0.000000 0.321245</pose>
+          <pose frame=''>2.983632 -0.551379 0.107556 0.000000 0.000000 1.016308</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
-      <model name='box_1'>
-        <pose frame=''>2.934864 -1.209582 0.085281 0.000000 0.000000 0.852751</pose>
+      <model name='brick_1'>
+        <pose frame=''>2.181326 1.429298 0.077378 0.000000 0.000000 -1.973365</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>2.934864 -1.209582 0.085281 0.000000 0.000000 0.852751</pose>
+          <pose frame=''>2.181326 1.429298 0.077378 0.000000 0.000000 -1.973365</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
-      <model name='woodplat1_2'>
-        <pose frame=''>1.421122 -0.775209 0.106567 0.000000 0.000000 -1.167873</pose>
+      <model name='woodpallet1_2'>
+        <pose frame=''>4.136592 -0.256638 0.121559 0.000000 0.000000 2.773665</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>1.421122 -0.775209 0.106567 0.000000 0.000000 -1.167873</pose>
+          <pose frame=''>4.136592 -0.256638 0.121559 0.000000 0.000000 2.773665</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
-      <model name='woodplat1_3'>
-        <pose frame=''>1.846619 1.360473 0.068954 0.000000 0.000000 0.199893</pose>
+      <model name='brick_3'>
+        <pose frame=''>3.279178 0.620884 0.108279 0.000000 0.000000 0.299300</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>1.846619 1.360473 0.068954 0.000000 0.000000 0.199893</pose>
+          <pose frame=''>3.279178 0.620884 0.108279 0.000000 0.000000 0.299300</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
-      <model name='woodplat1_4'>
-        <pose frame=''>3.310457 1.329164 0.109386 0.000000 0.000000 2.731208</pose>
+      <model name='box_4'>
+        <pose frame=''>2.399064 0.498363 0.053887 0.000000 0.000000 -0.044101</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>3.310457 1.329164 0.109386 0.000000 0.000000 2.731208</pose>
+          <pose frame=''>2.399064 0.498363 0.053887 0.000000 0.000000 -0.044101</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
-      <model name='brick_5'>
-        <pose frame=''>3.229136 -1.168652 0.084488 0.000000 0.000000 -0.190246</pose>
+      <model name='box_5'>
+        <pose frame=''>4.018568 0.839567 0.087497 0.000000 0.000000 -3.007614</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>3.229136 -1.168652 0.084488 0.000000 0.000000 -0.190246</pose>
+          <pose frame=''>4.018568 0.839567 0.087497 0.000000 0.000000 -3.007614</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
-      <model name='brick_6'>
-        <pose frame=''>4.390917 -1.684135 0.061883 0.000000 0.000000 -0.235101</pose>
+      <model name='box_6'>
+        <pose frame=''>1.706327 -1.585638 0.102036 0.000000 0.000000 -1.332428</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>4.390917 -1.684135 0.061883 0.000000 0.000000 -0.235101</pose>
+          <pose frame=''>1.706327 -1.585638 0.102036 0.000000 0.000000 -1.332428</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
-      <model name='woodplat1_7'>
-        <pose frame=''>1.780660 0.255543 0.114311 0.000000 0.000000 1.957047</pose>
+      <model name='brick_7'>
+        <pose frame=''>1.771115 1.807426 0.056105 0.000000 0.000000 -0.095171</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>1.780660 0.255543 0.114311 0.000000 0.000000 1.957047</pose>
+          <pose frame=''>1.771115 1.807426 0.056105 0.000000 0.000000 -0.095171</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
       <model name='brick_8'>
-        <pose frame=''>1.998257 -0.671141 0.119190 0.000000 0.000000 -2.432196</pose>
+        <pose frame=''>1.876617 0.779078 0.095794 0.000000 0.000000 -1.492575</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>1.998257 -0.671141 0.119190 0.000000 0.000000 -2.432196</pose>
+          <pose frame=''>1.876617 0.779078 0.095794 0.000000 0.000000 -1.492575</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
-      <model name='box_9'>
-        <pose frame=''>2.898125 0.483056 0.118867 0.000000 0.000000 -2.292877</pose>
+      <model name='brick_9'>
+        <pose frame=''>2.032783 -1.726681 0.065701 0.000000 0.000000 2.264355</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>2.898125 0.483056 0.118867 0.000000 0.000000 -2.292877</pose>
+          <pose frame=''>2.032783 -1.726681 0.065701 0.000000 0.000000 2.264355</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
       <model name='box_10'>
-        <pose frame=''>1.725070 2.082783 0.121384 0.000000 0.000000 -1.104887</pose>
+        <pose frame=''>3.713021 1.917248 0.085897 0.000000 0.000000 -3.043817</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>1.725070 2.082783 0.121384 0.000000 0.000000 -1.104887</pose>
+          <pose frame=''>3.713021 1.917248 0.085897 0.000000 0.000000 -3.043817</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
-      <model name='woodplat1_11'>
-        <pose frame=''>3.990747 -0.705347 0.064492 0.000000 0.000000 -0.600102</pose>
+      <model name='box_11'>
+        <pose frame=''>4.053361 0.571491 0.068067 0.000000 0.000000 0.950702</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>3.990747 -0.705347 0.064492 0.000000 0.000000 -0.600102</pose>
+          <pose frame=''>4.053361 0.571491 0.068067 0.000000 0.000000 0.950702</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
       <model name='brick_12'>
-        <pose frame=''>1.447599 -0.275942 0.081261 0.000000 0.000000 -1.059388</pose>
+        <pose frame=''>3.481705 1.735642 0.091451 0.000000 0.000000 1.855863</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>1.447599 -0.275942 0.081261 0.000000 0.000000 -1.059388</pose>
+          <pose frame=''>3.481705 1.735642 0.091451 0.000000 0.000000 1.855863</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
       <model name='brick_13'>
-        <pose frame=''>3.018096 0.655456 0.116717 0.000000 0.000000 0.970962</pose>
+        <pose frame=''>1.532793 -2.190737 0.103801 0.000000 0.000000 1.543242</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>3.018096 0.655456 0.116717 0.000000 0.000000 0.970962</pose>
+          <pose frame=''>1.532793 -2.190737 0.103801 0.000000 0.000000 1.543242</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
-      <model name='box_14'>
-        <pose frame=''>2.941777 1.132242 0.110752 0.000000 0.000000 2.596280</pose>
+      <model name='brick_14'>
+        <pose frame=''>1.131318 -1.173359 0.120375 0.000000 0.000000 -1.459404</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>2.941777 1.132242 0.110752 0.000000 0.000000 2.596280</pose>
+          <pose frame=''>1.131318 -1.173359 0.120375 0.000000 0.000000 -1.459404</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
-      <model name='woodplat1_15'>
-        <pose frame=''>2.400643 -0.574593 0.112642 0.000000 0.000000 -2.218489</pose>
+      <model name='box_15'>
+        <pose frame=''>1.413727 1.330812 0.095547 0.000000 0.000000 -1.947189</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>2.400643 -0.574593 0.112642 0.000000 0.000000 -2.218489</pose>
+          <pose frame=''>1.413727 1.330812 0.095547 0.000000 0.000000 -1.947189</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
-      <model name='woodplat1_16'>
-        <pose frame=''>3.998060 -0.628294 0.064654 0.000000 0.000000 -0.105984</pose>
+      <model name='brick_16'>
+        <pose frame=''>4.206654 -0.667356 0.073123 0.000000 0.000000 -0.597165</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>3.998060 -0.628294 0.064654 0.000000 0.000000 -0.105984</pose>
+          <pose frame=''>4.206654 -0.667356 0.073123 0.000000 0.000000 -0.597165</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
-      <model name='box_17'>
-        <pose frame=''>1.801809 -1.448580 0.100905 0.000000 0.000000 -0.993594</pose>
+      <model name='brick_17'>
+        <pose frame=''>1.381203 -0.706689 0.090684 0.000000 0.000000 1.269937</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>1.801809 -1.448580 0.100905 0.000000 0.000000 -0.993594</pose>
+          <pose frame=''>1.381203 -0.706689 0.090684 0.000000 0.000000 1.269937</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
-      <model name='woodplat1_18'>
-        <pose frame=''>3.130725 1.201247 0.071335 0.000000 0.000000 1.288286</pose>
+      <model name='brick_18'>
+        <pose frame=''>2.238522 -0.213843 0.065345 0.000000 0.000000 2.294829</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>3.130725 1.201247 0.071335 0.000000 0.000000 1.288286</pose>
+          <pose frame=''>2.238522 -0.213843 0.065345 0.000000 0.000000 2.294829</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
-      <model name='woodplat1_19'>
-        <pose frame=''>3.824927 0.585374 0.100988 0.000000 0.000000 2.599209</pose>
+      <model name='brick_19'>
+        <pose frame=''>3.882045 0.540637 0.052993 0.000000 0.000000 -1.024346</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>3.824927 0.585374 0.100988 0.000000 0.000000 2.599209</pose>
+          <pose frame=''>3.882045 0.540637 0.052993 0.000000 0.000000 -1.024346</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
@@ -383,28 +383,27 @@
         <pose frame=''>0 0 10 0 -0 0</pose>
       </light>
     </state>
-    <model name='box_0'>
-      <pose frame=''>4.150145 -1.636573 0.124217 0.000000 0.000000 0.321245</pose>
-      <link name='link'>
+    <model name='woodpallett1_0'>
+      <pose frame=''>2.983632 -0.551379 0.107556 0.000000 0.000000 1.016308</pose>
+      <link name="link">
         <inertial>
-          <mass>1000.000000</mass>
+          <mass> 1000.0 </mass>
           <inertia>
-            <ixx>166.700000</ixx>
-            <ixy>0.000000</ixy>
-            <ixz>0.000000</ixz>
-            <iyy>166.700000</iyy>
-            <iyz>0.000000</iyz>
-            <izz>166.700000</izz>
+            <ixx> 166.6 </ixx>
+            <ixy> 0.0 </ixy>
+            <ixz> 0.0 </ixz>
+            <iyy> 166.6 </iyy>
+            <iyz> 0.0 </iyz>
+            <izz> 166.6 </izz>
           </inertia>
-          <pose frame=''>0 0 0 0 0 0</pose>
         </inertial>
-        <collision name='collision'>
+        <collision name="collision">
           <geometry>
-            <box>
-              <size>0.478500 0.332304 0.248433</size>
-            </box>
+            <mesh>
+              <uri>file://../config/meshes/WoodenPallet1/WoodenPallet1.dae</uri>
+            </mesh>
           </geometry>
-          <max_contacts>10</max_contacts>          
+          <max_contacts>100</max_contacts>
           <surface>
             <friction>
               <ode>
@@ -421,15 +420,15 @@
             <bounce/>
           </surface>
         </collision>
-        <visual name='visual'>
+        <visual name="visual">
           <geometry>
-            <box>
-              <size>0.478500 0.332304 0.248433</size>
-            </box>
+            <mesh>
+              <uri>file://../config/meshes/WoodenPallet1/WoodenPallet1.dae</uri>
+            </mesh>
           </geometry>
           <material>
             <script>
-              <name>Gazebo/DarkGrey</name>
+              <name>Gazebo/Wood</name>
               <uri>file://media/materials/scripts/gazebo.material</uri>
             </script>
           </material>
@@ -439,28 +438,27 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='box_1'>
-      <pose frame=''>2.934864 -1.209582 0.085281 0.000000 0.000000 0.852751</pose>
-      <link name='link'>
+    <model name='brick_1'>
+      <pose frame=''>2.181326 1.429298 0.077378 0.000000 0.000000 -1.973365</pose>
+      <link name="link">
         <inertial>
-          <mass>1000.000000</mass>
+          <mass> 15.0 </mass>
           <inertia>
-            <ixx>166.700000</ixx>
-            <ixy>0.000000</ixy>
-            <ixz>0.000000</ixz>
-            <iyy>166.700000</iyy>
-            <iyz>0.000000</iyz>
-            <izz>166.700000</izz>
+            <ixx> 0.07565625 </ixx>
+            <ixy> 0.0 </ixy>
+            <ixz> 0.0 </ixz>
+            <iyy> 0.340625 </iyy>
+            <iyz> 0.0 </iyz>
+            <izz> 0.33125 </izz>
           </inertia>
-          <pose frame=''>0 0 0 0 0 0</pose>
         </inertial>
-        <collision name='collision'>
+        <collision name="collision">
           <geometry>
-            <box>
-              <size>0.528707 0.519644 0.170561</size>
-            </box>
+            <mesh>
+              <uri>file://../config/meshes/Brick/Brick.dae</uri>
+            </mesh>
           </geometry>
-          <max_contacts>10</max_contacts>          
+          <max_contacts>100</max_contacts>
           <surface>
             <friction>
               <ode>
@@ -477,17 +475,17 @@
             <bounce/>
           </surface>
         </collision>
-        <visual name='visual'>
+        <visual name="visual">
           <geometry>
-            <box>
-              <size>0.528707 0.519644 0.170561</size>
-            </box>
+            <mesh>
+              <uri>file://../config/meshes/Brick/Brick.dae</uri>
+            </mesh>
           </geometry>
           <material>
-            <script>
-              <name>Gazebo/DarkGrey</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
+            <ambient>0.3 0.3 0.3 1</ambient>
+            <diffuse>0.3 0.3 0.3 1</diffuse>
+            <specular>0 0 0 0</specular>
+            <emissive>0 0 0 1</emissive>
           </material>
         </visual>
         <self_collide>0</self_collide>
@@ -496,17 +494,17 @@
       </link>
     </model>
     <model name='woodplat1_2'>
-      <pose frame=''>1.421122 -0.775209 0.106567 0.000000 0.000000 -1.167873</pose>
+      <pose frame=''>4.136592 -0.256638 0.121559 0.000000 0.000000 2.773665</pose>
       <link name="link">
         <inertial>
-          <mass> 10.0 </mass>
+          <mass> 1000.0 </mass>
           <inertia>
-            <ixx> 1.6 </ixx>
+            <ixx> 166.6 </ixx>
             <ixy> 0.0 </ixy>
             <ixz> 0.0 </ixz>
-            <iyy> 1.6 </iyy>
+            <iyy> 166.6 </iyy>
             <iyz> 0.0 </iyz>
-            <izz> 1.6 </izz>
+            <izz> 166.6 </izz>
           </inertia>
         </inertial>
         <collision name="collision">
@@ -550,118 +548,8 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='woodplat1_3'>
-      <pose frame=''>1.846619 1.360473 0.068954 0.000000 0.000000 0.199893</pose>
-      <link name="link">
-        <inertial>
-          <mass> 10.0 </mass>
-          <inertia>
-            <ixx> 1.6 </ixx>
-            <ixy> 0.0 </ixy>
-            <ixz> 0.0 </ixz>
-            <iyy> 1.6 </iyy>
-            <iyz> 0.0 </iyz>
-            <izz> 1.6 </izz>
-          </inertia>
-        </inertial>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://../config/meshes/WoodenPlatform1/WoodPlat1.dae</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>100</max_contacts>
-          <surface>
-            <friction>
-              <ode>
-                <mu>0.62</mu>
-                <mu2>0.6</mu2>
-              </ode>
-              <torsional>
-                <coefficient>1.0</coefficient>
-              </torsional>
-            </friction>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-          </surface>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://../config/meshes/WoodenPlatform1/WoodPlat1.dae</uri>
-            </mesh>
-          </geometry>
-          <material>
-            <script>
-              <name>Gazebo/Wood</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-    </model>
-    <model name='woodplat1_4'>
-      <pose frame=''>3.310457 1.329164 0.109386 0.000000 0.000000 2.731208</pose>
-      <link name="link">
-        <inertial>
-          <mass> 10.0 </mass>
-          <inertia>
-            <ixx> 1.6 </ixx>
-            <ixy> 0.0 </ixy>
-            <ixz> 0.0 </ixz>
-            <iyy> 1.6 </iyy>
-            <iyz> 0.0 </iyz>
-            <izz> 1.6 </izz>
-          </inertia>
-        </inertial>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://../config/meshes/WoodenPlatform1/WoodPlat1.dae</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>100</max_contacts>
-          <surface>
-            <friction>
-              <ode>
-                <mu>0.62</mu>
-                <mu2>0.6</mu2>
-              </ode>
-              <torsional>
-                <coefficient>1.0</coefficient>
-              </torsional>
-            </friction>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-          </surface>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://../config/meshes/WoodenPlatform1/WoodPlat1.dae</uri>
-            </mesh>
-          </geometry>
-          <material>
-            <script>
-              <name>Gazebo/Wood</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-    </model>
-    <model name='brick_5'>
-      <pose frame=''>3.229136 -1.168652 0.084488 0.000000 0.000000 -0.190246</pose>
+    <model name='brick_3'>
+      <pose frame=''>3.279178 0.620884 0.108279 0.000000 0.000000 0.299300</pose>
       <link name="link">
         <inertial>
           <mass> 15.0 </mass>
@@ -715,8 +603,176 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='brick_6'>
-      <pose frame=''>4.390917 -1.684135 0.061883 0.000000 0.000000 -0.235101</pose>
+    <model name='box_4'>
+      <pose frame=''>2.399064 0.498363 0.053887 0.000000 0.000000 -0.044101</pose>
+      <link name='link'>
+        <inertial>
+          <mass>1000.000000</mass>
+          <inertia>
+            <ixx>166.700000</ixx>
+            <ixy>0.000000</ixy>
+            <ixz>0.000000</ixz>
+            <iyy>166.700000</iyy>
+            <iyz>0.000000</iyz>
+            <izz>166.700000</izz>
+          </inertia>
+          <pose frame=''>0 0 0 0 0 0</pose>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.361152 0.345929 0.107775</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>          
+          <surface>
+            <friction>
+              <ode>
+                <mu>0.62</mu>
+                <mu2>0.6</mu2>
+              </ode>
+              <torsional>
+                <coefficient>1.0</coefficient>
+              </torsional>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.361152 0.345929 0.107775</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/DarkGrey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='box_5'>
+      <pose frame=''>4.018568 0.839567 0.087497 0.000000 0.000000 -3.007614</pose>
+      <link name='link'>
+        <inertial>
+          <mass>1000.000000</mass>
+          <inertia>
+            <ixx>166.700000</ixx>
+            <ixy>0.000000</ixy>
+            <ixz>0.000000</ixz>
+            <iyy>166.700000</iyy>
+            <iyz>0.000000</iyz>
+            <izz>166.700000</izz>
+          </inertia>
+          <pose frame=''>0 0 0 0 0 0</pose>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.270446 0.390063 0.174994</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>          
+          <surface>
+            <friction>
+              <ode>
+                <mu>0.62</mu>
+                <mu2>0.6</mu2>
+              </ode>
+              <torsional>
+                <coefficient>1.0</coefficient>
+              </torsional>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.270446 0.390063 0.174994</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/DarkGrey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='box_6'>
+      <pose frame=''>1.706327 -1.585638 0.102036 0.000000 0.000000 -1.332428</pose>
+      <link name='link'>
+        <inertial>
+          <mass>1000.000000</mass>
+          <inertia>
+            <ixx>166.700000</ixx>
+            <ixy>0.000000</ixy>
+            <ixz>0.000000</ixz>
+            <iyy>166.700000</iyy>
+            <iyz>0.000000</iyz>
+            <izz>166.700000</izz>
+          </inertia>
+          <pose frame=''>0 0 0 0 0 0</pose>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.369117 0.215024 0.204072</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>          
+          <surface>
+            <friction>
+              <ode>
+                <mu>0.62</mu>
+                <mu2>0.6</mu2>
+              </ode>
+              <torsional>
+                <coefficient>1.0</coefficient>
+              </torsional>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.369117 0.215024 0.204072</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/DarkGrey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='brick_7'>
+      <pose frame=''>1.771115 1.807426 0.056105 0.000000 0.000000 -0.095171</pose>
       <link name="link">
         <inertial>
           <mass> 15.0 </mass>
@@ -763,61 +819,6 @@
             <diffuse>0.3 0.3 0.3 1</diffuse>
             <specular>0 0 0 0</specular>
             <emissive>0 0 0 1</emissive>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-    </model>
-    <model name='woodplat1_7'>
-      <pose frame=''>1.780660 0.255543 0.114311 0.000000 0.000000 1.957047</pose>
-      <link name="link">
-        <inertial>
-          <mass> 10.0 </mass>
-          <inertia>
-            <ixx> 1.6 </ixx>
-            <ixy> 0.0 </ixy>
-            <ixz> 0.0 </ixz>
-            <iyy> 1.6 </iyy>
-            <iyz> 0.0 </iyz>
-            <izz> 1.6 </izz>
-          </inertia>
-        </inertial>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://../config/meshes/WoodenPlatform1/WoodPlat1.dae</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>100</max_contacts>
-          <surface>
-            <friction>
-              <ode>
-                <mu>0.62</mu>
-                <mu2>0.6</mu2>
-              </ode>
-              <torsional>
-                <coefficient>1.0</coefficient>
-              </torsional>
-            </friction>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-          </surface>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://../config/meshes/WoodenPlatform1/WoodPlat1.dae</uri>
-            </mesh>
-          </geometry>
-          <material>
-            <script>
-              <name>Gazebo/Wood</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
           </material>
         </visual>
         <self_collide>0</self_collide>
@@ -826,7 +827,7 @@
       </link>
     </model>
     <model name='brick_8'>
-      <pose frame=''>1.998257 -0.671141 0.119190 0.000000 0.000000 -2.432196</pose>
+      <pose frame=''>1.876617 0.779078 0.095794 0.000000 0.000000 -1.492575</pose>
       <link name="link">
         <inertial>
           <mass> 15.0 </mass>
@@ -880,136 +881,24 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='box_9'>
-      <pose frame=''>2.898125 0.483056 0.118867 0.000000 0.000000 -2.292877</pose>
-      <link name='link'>
-        <inertial>
-          <mass>1000.000000</mass>
-          <inertia>
-            <ixx>166.700000</ixx>
-            <ixy>0.000000</ixy>
-            <ixz>0.000000</ixz>
-            <iyy>166.700000</iyy>
-            <iyz>0.000000</iyz>
-            <izz>166.700000</izz>
-          </inertia>
-          <pose frame=''>0 0 0 0 0 0</pose>
-        </inertial>
-        <collision name='collision'>
-          <geometry>
-            <box>
-              <size>0.617238 0.284780 0.237734</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>          
-          <surface>
-            <friction>
-              <ode>
-                <mu>0.62</mu>
-                <mu2>0.6</mu2>
-              </ode>
-              <torsional>
-                <coefficient>1.0</coefficient>
-              </torsional>
-            </friction>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <box>
-              <size>0.617238 0.284780 0.237734</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <name>Gazebo/DarkGrey</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-    </model>
-    <model name='box_10'>
-      <pose frame=''>1.725070 2.082783 0.121384 0.000000 0.000000 -1.104887</pose>
-      <link name='link'>
-        <inertial>
-          <mass>1000.000000</mass>
-          <inertia>
-            <ixx>166.700000</ixx>
-            <ixy>0.000000</ixy>
-            <ixz>0.000000</ixz>
-            <iyy>166.700000</iyy>
-            <iyz>0.000000</iyz>
-            <izz>166.700000</izz>
-          </inertia>
-          <pose frame=''>0 0 0 0 0 0</pose>
-        </inertial>
-        <collision name='collision'>
-          <geometry>
-            <box>
-              <size>0.524165 0.458318 0.242769</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>          
-          <surface>
-            <friction>
-              <ode>
-                <mu>0.62</mu>
-                <mu2>0.6</mu2>
-              </ode>
-              <torsional>
-                <coefficient>1.0</coefficient>
-              </torsional>
-            </friction>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <box>
-              <size>0.524165 0.458318 0.242769</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <name>Gazebo/DarkGrey</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-    </model>
-    <model name='woodplat1_11'>
-      <pose frame=''>3.990747 -0.705347 0.064492 0.000000 0.000000 -0.600102</pose>
+    <model name='brick_9'>
+      <pose frame=''>2.032783 -1.726681 0.065701 0.000000 0.000000 2.264355</pose>
       <link name="link">
         <inertial>
-          <mass> 10.0 </mass>
+          <mass> 15.0 </mass>
           <inertia>
-            <ixx> 1.6 </ixx>
+            <ixx> 0.07565625 </ixx>
             <ixy> 0.0 </ixy>
             <ixz> 0.0 </ixz>
-            <iyy> 1.6 </iyy>
+            <iyy> 0.340625 </iyy>
             <iyz> 0.0 </iyz>
-            <izz> 1.6 </izz>
+            <izz> 0.33125 </izz>
           </inertia>
         </inertial>
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>file://../config/meshes/WoodenPlatform1/WoodPlat1.dae</uri>
+              <uri>file://../config/meshes/Brick/Brick.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>100</max_contacts>
@@ -1032,12 +921,124 @@
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>file://../config/meshes/WoodenPlatform1/WoodPlat1.dae</uri>
+              <uri>file://../config/meshes/Brick/Brick.dae</uri>
             </mesh>
           </geometry>
           <material>
+            <ambient>0.3 0.3 0.3 1</ambient>
+            <diffuse>0.3 0.3 0.3 1</diffuse>
+            <specular>0 0 0 0</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='box_10'>
+      <pose frame=''>3.713021 1.917248 0.085897 0.000000 0.000000 -3.043817</pose>
+      <link name='link'>
+        <inertial>
+          <mass>1000.000000</mass>
+          <inertia>
+            <ixx>166.700000</ixx>
+            <ixy>0.000000</ixy>
+            <ixz>0.000000</ixz>
+            <iyy>166.700000</iyy>
+            <iyz>0.000000</iyz>
+            <izz>166.700000</izz>
+          </inertia>
+          <pose frame=''>0 0 0 0 0 0</pose>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.535493 0.296842 0.171794</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>          
+          <surface>
+            <friction>
+              <ode>
+                <mu>0.62</mu>
+                <mu2>0.6</mu2>
+              </ode>
+              <torsional>
+                <coefficient>1.0</coefficient>
+              </torsional>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.535493 0.296842 0.171794</size>
+            </box>
+          </geometry>
+          <material>
             <script>
-              <name>Gazebo/Wood</name>
+              <name>Gazebo/DarkGrey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='box_11'>
+      <pose frame=''>4.053361 0.571491 0.068067 0.000000 0.000000 0.950702</pose>
+      <link name='link'>
+        <inertial>
+          <mass>1000.000000</mass>
+          <inertia>
+            <ixx>166.700000</ixx>
+            <ixy>0.000000</ixy>
+            <ixz>0.000000</ixz>
+            <iyy>166.700000</iyy>
+            <iyz>0.000000</iyz>
+            <izz>166.700000</izz>
+          </inertia>
+          <pose frame=''>0 0 0 0 0 0</pose>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.491286 0.354900 0.136134</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>          
+          <surface>
+            <friction>
+              <ode>
+                <mu>0.62</mu>
+                <mu2>0.6</mu2>
+              </ode>
+              <torsional>
+                <coefficient>1.0</coefficient>
+              </torsional>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.491286 0.354900 0.136134</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/DarkGrey</name>
               <uri>file://media/materials/scripts/gazebo.material</uri>
             </script>
           </material>
@@ -1048,7 +1049,7 @@
       </link>
     </model>
     <model name='brick_12'>
-      <pose frame=''>1.447599 -0.275942 0.081261 0.000000 0.000000 -1.059388</pose>
+      <pose frame=''>3.481705 1.735642 0.091451 0.000000 0.000000 1.855863</pose>
       <link name="link">
         <inertial>
           <mass> 15.0 </mass>
@@ -1103,7 +1104,7 @@
       </link>
     </model>
     <model name='brick_13'>
-      <pose frame=''>3.018096 0.655456 0.116717 0.000000 0.000000 0.970962</pose>
+      <pose frame=''>1.532793 -2.190737 0.103801 0.000000 0.000000 1.543242</pose>
       <link name="link">
         <inertial>
           <mass> 15.0 </mass>
@@ -1157,8 +1158,63 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='box_14'>
-      <pose frame=''>2.941777 1.132242 0.110752 0.000000 0.000000 2.596280</pose>
+    <model name='brick_14'>
+      <pose frame=''>1.131318 -1.173359 0.120375 0.000000 0.000000 -1.459404</pose>
+      <link name="link">
+        <inertial>
+          <mass> 15.0 </mass>
+          <inertia>
+            <ixx> 0.07565625 </ixx>
+            <ixy> 0.0 </ixy>
+            <ixz> 0.0 </ixz>
+            <iyy> 0.340625 </iyy>
+            <iyz> 0.0 </iyz>
+            <izz> 0.33125 </izz>
+          </inertia>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file://../config/meshes/Brick/Brick.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>100</max_contacts>
+          <surface>
+            <friction>
+              <ode>
+                <mu>0.62</mu>
+                <mu2>0.6</mu2>
+              </ode>
+              <torsional>
+                <coefficient>1.0</coefficient>
+              </torsional>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+          </surface>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file://../config/meshes/Brick/Brick.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>0.3 0.3 0.3 1</ambient>
+            <diffuse>0.3 0.3 0.3 1</diffuse>
+            <specular>0 0 0 0</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='box_15'>
+      <pose frame=''>1.413727 1.330812 0.095547 0.000000 0.000000 -1.947189</pose>
       <link name='link'>
         <inertial>
           <mass>1000.000000</mass>
@@ -1175,7 +1231,7 @@
         <collision name='collision'>
           <geometry>
             <box>
-              <size>0.299707 0.502530 0.221503</size>
+              <size>0.429629 0.255753 0.191095</size>
             </box>
           </geometry>
           <max_contacts>10</max_contacts>          
@@ -1198,7 +1254,7 @@
         <visual name='visual'>
           <geometry>
             <box>
-              <size>0.299707 0.502530 0.221503</size>
+              <size>0.429629 0.255753 0.191095</size>
             </box>
           </geometry>
           <material>
@@ -1213,24 +1269,24 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='woodplat1_15'>
-      <pose frame=''>2.400643 -0.574593 0.112642 0.000000 0.000000 -2.218489</pose>
+    <model name='brick_16'>
+      <pose frame=''>4.206654 -0.667356 0.073123 0.000000 0.000000 -0.597165</pose>
       <link name="link">
         <inertial>
-          <mass> 10.0 </mass>
+          <mass> 15.0 </mass>
           <inertia>
-            <ixx> 1.6 </ixx>
+            <ixx> 0.07565625 </ixx>
             <ixy> 0.0 </ixy>
             <ixz> 0.0 </ixz>
-            <iyy> 1.6 </iyy>
+            <iyy> 0.340625 </iyy>
             <iyz> 0.0 </iyz>
-            <izz> 1.6 </izz>
+            <izz> 0.33125 </izz>
           </inertia>
         </inertial>
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>file://../config/meshes/WoodenPlatform1/WoodPlat1.dae</uri>
+              <uri>file://../config/meshes/Brick/Brick.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>100</max_contacts>
@@ -1253,14 +1309,14 @@
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>file://../config/meshes/WoodenPlatform1/WoodPlat1.dae</uri>
+              <uri>file://../config/meshes/Brick/Brick.dae</uri>
             </mesh>
           </geometry>
           <material>
-            <script>
-              <name>Gazebo/Wood</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
+            <ambient>0.3 0.3 0.3 1</ambient>
+            <diffuse>0.3 0.3 0.3 1</diffuse>
+            <specular>0 0 0 0</specular>
+            <emissive>0 0 0 1</emissive>
           </material>
         </visual>
         <self_collide>0</self_collide>
@@ -1268,24 +1324,24 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='woodplat1_16'>
-      <pose frame=''>3.998060 -0.628294 0.064654 0.000000 0.000000 -0.105984</pose>
+    <model name='brick_17'>
+      <pose frame=''>1.381203 -0.706689 0.090684 0.000000 0.000000 1.269937</pose>
       <link name="link">
         <inertial>
-          <mass> 10.0 </mass>
+          <mass> 15.0 </mass>
           <inertia>
-            <ixx> 1.6 </ixx>
+            <ixx> 0.07565625 </ixx>
             <ixy> 0.0 </ixy>
             <ixz> 0.0 </ixz>
-            <iyy> 1.6 </iyy>
+            <iyy> 0.340625 </iyy>
             <iyz> 0.0 </iyz>
-            <izz> 1.6 </izz>
+            <izz> 0.33125 </izz>
           </inertia>
         </inertial>
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>file://../config/meshes/WoodenPlatform1/WoodPlat1.dae</uri>
+              <uri>file://../config/meshes/Brick/Brick.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>100</max_contacts>
@@ -1308,14 +1364,14 @@
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>file://../config/meshes/WoodenPlatform1/WoodPlat1.dae</uri>
+              <uri>file://../config/meshes/Brick/Brick.dae</uri>
             </mesh>
           </geometry>
           <material>
-            <script>
-              <name>Gazebo/Wood</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
+            <ambient>0.3 0.3 0.3 1</ambient>
+            <diffuse>0.3 0.3 0.3 1</diffuse>
+            <specular>0 0 0 0</specular>
+            <emissive>0 0 0 1</emissive>
           </material>
         </visual>
         <self_collide>0</self_collide>
@@ -1323,80 +1379,24 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='box_17'>
-      <pose frame=''>1.801809 -1.448580 0.100905 0.000000 0.000000 -0.993594</pose>
-      <link name='link'>
-        <inertial>
-          <mass>1000.000000</mass>
-          <inertia>
-            <ixx>166.700000</ixx>
-            <ixy>0.000000</ixy>
-            <ixz>0.000000</ixz>
-            <iyy>166.700000</iyy>
-            <iyz>0.000000</iyz>
-            <izz>166.700000</izz>
-          </inertia>
-          <pose frame=''>0 0 0 0 0 0</pose>
-        </inertial>
-        <collision name='collision'>
-          <geometry>
-            <box>
-              <size>0.359228 0.530761 0.201809</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>          
-          <surface>
-            <friction>
-              <ode>
-                <mu>0.62</mu>
-                <mu2>0.6</mu2>
-              </ode>
-              <torsional>
-                <coefficient>1.0</coefficient>
-              </torsional>
-            </friction>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <box>
-              <size>0.359228 0.530761 0.201809</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <name>Gazebo/DarkGrey</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-    </model>
-    <model name='woodplat1_18'>
-      <pose frame=''>3.130725 1.201247 0.071335 0.000000 0.000000 1.288286</pose>
+    <model name='brick_18'>
+      <pose frame=''>2.238522 -0.213843 0.065345 0.000000 0.000000 2.294829</pose>
       <link name="link">
         <inertial>
-          <mass> 10.0 </mass>
+          <mass> 15.0 </mass>
           <inertia>
-            <ixx> 1.6 </ixx>
+            <ixx> 0.07565625 </ixx>
             <ixy> 0.0 </ixy>
             <ixz> 0.0 </ixz>
-            <iyy> 1.6 </iyy>
+            <iyy> 0.340625 </iyy>
             <iyz> 0.0 </iyz>
-            <izz> 1.6 </izz>
+            <izz> 0.33125 </izz>
           </inertia>
         </inertial>
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>file://../config/meshes/WoodenPlatform1/WoodPlat1.dae</uri>
+              <uri>file://../config/meshes/Brick/Brick.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>100</max_contacts>
@@ -1419,14 +1419,14 @@
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>file://../config/meshes/WoodenPlatform1/WoodPlat1.dae</uri>
+              <uri>file://../config/meshes/Brick/Brick.dae</uri>
             </mesh>
           </geometry>
           <material>
-            <script>
-              <name>Gazebo/Wood</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
+            <ambient>0.3 0.3 0.3 1</ambient>
+            <diffuse>0.3 0.3 0.3 1</diffuse>
+            <specular>0 0 0 0</specular>
+            <emissive>0 0 0 1</emissive>
           </material>
         </visual>
         <self_collide>0</self_collide>
@@ -1434,24 +1434,24 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='woodplat1_19'>
-      <pose frame=''>3.824927 0.585374 0.100988 0.000000 0.000000 2.599209</pose>
+    <model name='brick_19'>
+      <pose frame=''>3.882045 0.540637 0.052993 0.000000 0.000000 -1.024346</pose>
       <link name="link">
         <inertial>
-          <mass> 10.0 </mass>
+          <mass> 15.0 </mass>
           <inertia>
-            <ixx> 1.6 </ixx>
+            <ixx> 0.07565625 </ixx>
             <ixy> 0.0 </ixy>
             <ixz> 0.0 </ixz>
-            <iyy> 1.6 </iyy>
+            <iyy> 0.340625 </iyy>
             <iyz> 0.0 </iyz>
-            <izz> 1.6 </izz>
+            <izz> 0.33125 </izz>
           </inertia>
         </inertial>
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>file://../config/meshes/WoodenPlatform1/WoodPlat1.dae</uri>
+              <uri>file://../config/meshes/Brick/Brick.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>100</max_contacts>
@@ -1474,14 +1474,14 @@
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>file://../config/meshes/WoodenPlatform1/WoodPlat1.dae</uri>
+              <uri>file://../config/meshes/Brick/Brick.dae</uri>
             </mesh>
           </geometry>
           <material>
-            <script>
-              <name>Gazebo/Wood</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
+            <ambient>0.3 0.3 0.3 1</ambient>
+            <diffuse>0.3 0.3 0.3 1</diffuse>
+            <specular>0 0 0 0</specular>
+            <emissive>0 0 0 1</emissive>
           </material>
         </visual>
         <self_collide>0</self_collide>
