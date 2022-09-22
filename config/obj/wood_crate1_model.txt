@@ -1,21 +1,21 @@
-    <model name='woodplat1_%d'>
+    <model name='wood_crate1_%d'>
       <pose frame=''>%f %f %f %f %f %f</pose>
       <link name="link">
         <inertial>
-          <mass> 1000.0 </mass>
+          <mass> 15.0 </mass>
           <inertia>
-            <ixx> 22.70 </ixx>
+            <ixx> 0.4 </ixx>
             <ixy> 0.0 </ixy>
             <ixz> 0.0 </ixz>
-            <iyy> 132.08 </iyy>
+            <iyy> 0.4 </iyy>
             <iyz> 0.0 </iyz>
-            <izz> 151.04 </izz>
+            <izz> 0.4 </izz>
           </inertia>
         </inertial>
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>file://../config/meshes/WoodenPlatform1/WoodPlat1.dae</uri>
+              <uri>file://../config/meshes/WoodCrates/WoodCrate1.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>100</max_contacts>
@@ -38,12 +38,12 @@
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>file://../config/meshes/WoodenPlatform1/WoodPlat1.dae</uri>
+              <uri>file://../config/meshes/WoodCrates/WoodCrate1.dae</uri>
             </mesh>
           </geometry>
           <material>
             <script>
-              <name>Gazebo/Wood</name>
+              <name>Gazebo/Wood </name>
               <uri>file://media/materials/scripts/gazebo.material</uri>
             </script>
           </material>

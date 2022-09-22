@@ -1,4 +1,4 @@
-      <model name='woodpallet1_%d'>
+      <model name='wood_crate1_%d'>
         <pose frame=''>%f %f %f %f %f %f</pose>
         <scale>1 1 1</scale>
         <link name='link'>
