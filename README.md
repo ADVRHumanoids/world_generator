@@ -10,8 +10,9 @@ In order to run it you simply have to execute the script: generator.py
 The resulting .world file will be written inside "data" folder.
 
 In order to launch the world from other locations you need the following export:
-    export GAZEBO_RESOURCE_PATH=$GAZEBO_RESOURCE_PATH:{your_local_path}/world_generator/data
-
+```
+export GAZEBO_RESOURCE_PATH=$GAZEBO_RESOURCE_PATH:{your_local_path}/world_generator/data
+```
 # Object Description
 For now the following objects are available:
 - _Random boxes_: boxes with random size, orientation (mass to be added).
@@ -20,3 +21,24 @@ For now the following objects are available:
 - _WoodenPallet_: wooden rectangular pallet with the following dimension: 1.20x0.805x0.165 with mass 1000 Kg.
 - _WoodenCrate_: cubic crate with dimensions 0.4x0.4x0.4 and mass 15kg.
 - _WoodenCrateSmall_: cubic crate with dimensions 0.2x0.2x0.2 and mass 10kg.
+
+# Examples of Generated Scenarios
+
+<table>
+    <tr>
+        <td>
+            <img src="https://github.com/ADVRHumanoids/world_generator/blob/main/examples/Example1.png?raw=true"/>
+        </td>
+        <td>
+            <img src="https://github.com/ADVRHumanoids/world_generator/blob/main/examples/Example2.png?raw=true"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://github.com/ADVRHumanoids/world_generator/blob/main/examples/Example3.png?raw=true"/>
+        </td>
+        <td>
+            <img src="https://github.com/ADVRHumanoids/world_generator/blob/main/examples/Example4.png?raw=true"/>
+        </td>
+    </tr>
+</table>
