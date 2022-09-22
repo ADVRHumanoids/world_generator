@@ -1,21 +1,21 @@
-    <model name='wood_crate1_%d'>
+    <model name='wood_crate3_long_%d'>
       <pose frame=''>%f %f %f %f %f %f</pose>
       <link name="link">
         <inertial>
-          <mass> 15.0 </mass>
+          <mass> 50.0 </mass>
           <inertia>
-            <ixx> 0.4 </ixx>
+            <ixx> 2.083 </ixx>
             <ixy> 0.0 </ixy>
             <ixz> 0.0 </ixz>
-            <iyy> 0.4 </iyy>
+            <iyy> 5.2083 </iyy>
             <iyz> 0.0 </iyz>
-            <izz> 0.4 </izz>
+            <izz> 5.2083 </izz>
           </inertia>
         </inertial>
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>file://../config/meshes/WoodCrates/WoodCrate1.dae</uri>
+              <uri>file://../config/meshes/WoodCrates/WoodCrate3_Long.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>100</max_contacts>
@@ -38,7 +38,7 @@
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>file://../config/meshes/WoodCrates/WoodCrate1.dae</uri>
+              <uri>file://../config/meshes/WoodCrates/WoodCrate3_Long.dae</uri>
             </mesh>
           </geometry>
           <material>

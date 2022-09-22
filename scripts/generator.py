@@ -157,6 +157,14 @@ def create_walls_model(file_obj, yaml_generator):
 def rand_num(min_val, max_val):
     return random.uniform(min_val, max_val)
 
+def getRectInertia(mass, dim_x, dim_y, dim_z):
+    inertia = [0,0,0]
+
+    inertia[0] = 1/12*mass*(dim_y*dim_y + dim_z*dim_z)
+    inertia[1] = 1/12*mass*(dim_x*dim_x + dim_z*dim_z)
+    inertia[2] = 1/12*mass*(dim_x*dim_x + dim_y*dim_y)
+    return inertia
+
 def main():
     f = open("../data/test_data.world", "w")
 
@@ -187,7 +195,7 @@ def main():
 
         curr_models_inst[rand_type[i]] = curr_models_inst[rand_type[i]] +1
 
-        if(models_max_inst[rand_type[i]] > 0 and curr_models_inst[rand_type[i]] > models_max_inst[rand_type[i]]):
+        if(models_max_inst[rand_type[i]] >= 0 and curr_models_inst[rand_type[i]] > models_max_inst[rand_type[i]]):
             curr_call = curr_call + 1
             i = i -1
             if(curr_call > max_calls):
@@ -216,7 +224,10 @@ def main():
     # Define Models
     #TODO: mass and inertia
     for i in range(0, yaml_generator["WorldGen"]["num_objs"]):
-        create_obj_model(f, rand_type[i], i, pos_x[i], pos_y[i], dim_z[i]*0.5, 0, 0, yaw[i], 1000, 166.7, 0, 0, 166.7, 0, 166.7, dim_x[i], dim_y[i], dim_z[i])
+
+        mass = 1000
+        inertia = getRectInertia(mass, dim_x[i], dim_y[i], dim_z[i])
+        create_obj_model(f, rand_type[i], i, pos_x[i], pos_y[i], dim_z[i]*0.5, 0, 0, yaw[i], mass, inertia[0], 0, 0, inertia[1], 0, inertia[2], dim_x[i], dim_y[i], dim_z[i])
 
     #If Wall to be added
     if yaml_generator["WorldGen"]["wall"]["use_walls"]:
