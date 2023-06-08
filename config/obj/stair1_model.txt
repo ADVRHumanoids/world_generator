@@ -1,21 +1,21 @@
-    <model name='wood_crate2_small_%d'>
+    <model name='stair1_%d'>
       <pose frame=''>%f %f %f %f %f %f</pose>
       <link name="link">
         <inertial>
-          <mass> 10.0 </mass>
+          <mass> 1000.0 </mass>
           <inertia>
-            <ixx> 0.067 </ixx>
+            <ixx> 57.27 </ixx>
             <ixy> 0.0 </ixy>
             <ixz> 0.0 </ixz>
-            <iyy> 0.067 </iyy>
+            <iyy> 122.27 </iyy>
             <iyz> 0.0 </iyz>
-            <izz> 0.067 </izz>
+            <izz> 174.00 </izz>
           </inertia>
         </inertial>
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>file://../config/meshes/WoodCrates/WoodCrate2_small.dae</uri>
+              <uri>file://../config/meshes/Stair1/Stair1.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>100</max_contacts>
@@ -38,12 +38,12 @@
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>file://../config/meshes/WoodCrates/WoodCrate2_small.dae</uri>
+              <uri>file://../config/meshes/Stair1/Stair1.dae</uri>
             </mesh>
           </geometry>
           <material>
             <script>
-              <name>Gazebo/Wood </name>
+              <name>Gazebo/Pedestrian</name>
               <uri>file://media/materials/scripts/gazebo.material</uri>
             </script>
           </material>
