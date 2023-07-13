@@ -1,21 +1,21 @@
-    <model name='wood_crate2_small_%d'>
+    <model name='brick_pile1_%d'>
       <pose frame=''>%f %f %f %f %f %f</pose>
       <link name="link">
         <inertial>
-          <mass> 10.0 </mass>
+          <mass> 15.0 </mass>
           <inertia>
-            <ixx> 0.067 </ixx>
+            <ixx> 0.07565625 </ixx>
             <ixy> 0.0 </ixy>
             <ixz> 0.0 </ixz>
-            <iyy> 0.067 </iyy>
+            <iyy> 0.340625 </iyy>
             <iyz> 0.0 </iyz>
-            <izz> 0.067 </izz>
+            <izz> 0.33125 </izz>
           </inertia>
         </inertial>
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>file://../config/meshes/WoodCrates/WoodCrate2_small.dae</uri>
+              <uri>file://../config/meshes/BrickPile1/BrickPile1.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>100</max_contacts>
@@ -38,14 +38,14 @@
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>file://../config/meshes/WoodCrates/WoodCrate2_small.dae</uri>
+              <uri>file://../config/meshes/BrickPile1/BrickPile1.dae</uri>
             </mesh>
           </geometry>
           <material>
-            <script>
-              <name>Gazebo/Wood </name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
+            <ambient>0.3 0.3 0.3 1</ambient>
+            <diffuse>0.3 0.3 0.3 1</diffuse>
+            <specular>0 0 0 0</specular>
+            <emissive>0 0 0 1</emissive>
           </material>
         </visual>
         <self_collide>0</self_collide>
