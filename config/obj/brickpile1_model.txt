@@ -2,14 +2,14 @@
       <pose frame=''>%f %f %f %f %f %f</pose>
       <link name="link">
         <inertial>
-          <mass> 15.0 </mass>
+          <mass> 45.0 </mass>
           <inertia>
-            <ixx> 0.07565625 </ixx>
+            <ixx> 0.22696875 </ixx>
             <ixy> 0.0 </ixy>
             <ixz> 0.0 </ixz>
-            <iyy> 0.340625 </iyy>
+            <iyy> 1.021875 </iyy>
             <iyz> 0.0 </iyz>
-            <izz> 0.33125 </izz>
+            <izz> 0.99375 </izz>
           </inertia>
         </inertial>
         <collision name="collision">
